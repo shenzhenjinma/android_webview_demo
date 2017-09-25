@@ -1,14 +1,16 @@
 {
-  "name": "react-native-root-siblings",
-  "version": "1.0.0",
-  "description": "fix rn 0.48 bug", 
-  "main": "./lib/SiblingsManager",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "techbin",
-  "license": "ISC"
+    "version": "1.2.1",
+    "name": "react-native-root-siblings",
+    "license": "MIT",
+    "main": "./lib/SiblingsManager",
+    "description": "react native root sibling elements manager fix RN 0.48.x bug",
+    "dependencies": {
+        "static-container": "^1.0.0"
+    },
+    "keywords": [
+        "react-component",
+        "react-native",
+        "ios",
+        "android"
+    ]
 }
